@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <p>Hello Hyperlift! I am here!</p>
-        document.getElementById("output").textContent = variable;
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Print variable</title>
+  </head>
+  <body>
+    <!-- This is where we "print" the variable -->
+    <p id="output"></p>
+
+    <script>
+      // Your "variable"
+      const variable = "Hello from variable!";
+
+      // Equivalent of: print(variable)
+      document.getElementById("output").textContent = variable;
+    </script>
+  </body>
 </html>
